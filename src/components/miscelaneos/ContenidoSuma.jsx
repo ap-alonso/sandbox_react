@@ -1,4 +1,4 @@
-import Boton from "./Boton";
+import Boton from "../assets/Boton";
 import { useState } from "react";
 function SumaComp() {
   let num1 = 3;
@@ -12,7 +12,7 @@ function SumaComp() {
     setNumClics(0);
   };
   return (
-    <div className="contenedor-principal">
+    <div>
       <div>
         {num1} + {num2} = {numClics}
       </div>

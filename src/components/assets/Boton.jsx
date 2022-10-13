@@ -1,5 +1,4 @@
 import React from 'react';
-
 function Boton({ texto, manejarClic }) {
   return (
     <button onClick={manejarClic}>
@@ -7,5 +6,4 @@ function Boton({ texto, manejarClic }) {
     </button>
   );
 }
-
 export default Boton;
